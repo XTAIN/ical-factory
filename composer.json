@@ -1,0 +1,20 @@
+{
+  "name": "xtain/ical-factory",
+  "description": "Creating iCal objects for sabre/vobject under consideration of correct timezones",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maximilian Ruta",
+      "email": "mruta@xtain.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "XTAIN\\ICalFactory\\":  "src"
+    }
+  },
+  "require": {
+    "php": ">=8.0",
+    "sabre/vobject": "^4.0"
+  }
+}
